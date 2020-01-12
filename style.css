@@ -1,0 +1,138 @@
+body {
+    margin: 0 auto;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.nav-bar {
+    position: sticky;
+    display:inline-block;
+    width:100%;
+    background-color: #F44242;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70vw;
+}
+
+.nav-li {
+    list-style: none;
+    font-size: 25px;
+}
+
+.underline {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (max-width: 1000px) {
+    .nav-ul {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 50vw;
+    }
+}
+
+@media (max-width: 550px) {
+    .nav-ul {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 30vw;
+    }
+}
+
+@media (max-width: 375px) {
+    .nav-ul {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 5vw;
+    }
+}
+
+.hello-section {
+    text-align: center;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    height: 900px;
+}
+
+.header-hello {
+    color: #fff;
+    font-size: 60px;
+    padding-top: 30vh;
+}
+
+.p-hello {
+    color: #A52A2A;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.work-section {
+    text-align: center;
+    background-color: #45567d;
+    height: 800px;
+}
+
+.header-work {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: underline;
+    padding-top: 8vh;
+    margin-bottom: 100px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.a-style {
+    text-decoration: none;
+    color: #fff;
+}
+
+.project-image {
+    width: 100%;
+    height: 300px;
+}
+
+.p-grid {
+    background-color: gray;
+    color: #fff;
+    margin: 0;
+    padding: 1.5vh;
+}
+
+.contact-section {
+    text-align: center;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    height: 600px;
+}
+
+.header-contact {
+    color: #fff;
+    font-size: 5vh;
+    padding-top: 15vh;
+}
+
+.contact-div {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.a-contact-div {
+    padding: 20px;
+}
+
+.a-contact-div:hover {
+    font-size: 20px;
+    transition: 1s;
+}
